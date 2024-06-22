@@ -24,7 +24,7 @@ Large Vision-Language Models (LVLMs) often suffer from *object hallucinations*, 
 
 [6. Thanks](#thanks)
 
-[6. Citation](#citation)
+[7. Citation](#citation)
 
 ## Data
 We conducted experiments using four public datasets:
