@@ -49,7 +49,7 @@ We experimented with two LVLMs: [LLaVA](https://github.com/haotian-liu/LLaVA) an
 The environment is based on Python 3.9. Detailed dependencies are listed in requirements.txt.
 
 ## Running
-To run experiments on POPE with LLaVA 1.5 or InstructBLIP, use the following commands in the *eval* folder::
+To run experiments on POPE with LLaVA 1.5 or InstructBLIP, use the following commands in the *eval* folder:
 ```
 sh llava1.5_pope.bash
 sh instructblip_pope.bash
