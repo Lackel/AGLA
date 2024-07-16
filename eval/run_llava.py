@@ -33,8 +33,8 @@ def eval_model(args):
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
     device = 'cuda'
-    model_class = registry.get_model_class('blip_image_text_matching')
-    model_class.PRETRAINED_MODEL_CONFIG_DICT['large'] = '/workspace/model/blip_itm_large/blip_itm_large.yaml'
+    # model_class = registry.get_model_class('blip_image_text_matching')
+    # model_class.PRETRAINED_MODEL_CONFIG_DICT['large'] = '/workspace/model/blip_itm_large/blip_itm_large.yaml'
     model_itm, vis_processors, text_processors = load_model_and_preprocess("blip_image_text_matching", "large", device=device, is_eval=True)
     loader = transforms.Compose([transforms.ToTensor()])
     
